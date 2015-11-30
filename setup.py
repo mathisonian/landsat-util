@@ -37,12 +37,12 @@ setup(
     install_requires=[
       'requests==2.7.0',
       'python-dateutil>=2.4.2',
-      'numpy>=1.9.3',
+      'numpy',
       'termcolor>=1.1.0',
       'rasterio>=0.26.0',
       'six==1.9.0',
-      'scipy>=0.16.0',
-      'scikit-image>=0.11.3',
+      'scipy',
+      'scikit-image',
       'homura>=0.1.2',
       'boto>=2.38.0',
       'polyline==1.1'
